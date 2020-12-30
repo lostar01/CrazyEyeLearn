@@ -1,0 +1,98 @@
+{% extends 'base.html' %}
+{% block title %} 主机列表 {% endblock %}
+{% load web_tags %}
+{% block content %}
+<div class="content-wrapper" style="min-height: 1329.44px;">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+          </div>
+          <div class="col-sm-6">
+          </div>
+        </div>
+      </div><!-- /.container-fluid -->
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <div class="card">
+              <div class="card-header">
+                <h3 class="card-title">主机列表</h3>
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body">
+                <div id="example2_wrapper" class="dataTables_wrapper dt-bootstrap4"><div class="row"><div class="col-sm-12 col-md-6"></div><div class="col-sm-12 col-md-6"></div></div><div class="row"><div class="col-sm-12"><table id="example2" class="table table-bordered table-hover dataTable dtr-inline" role="grid" aria-describedby="example2_info">
+                  <thead>
+                  <tr role="row">
+                      <th class="sorting_asc" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Rendering engine: activate to sort column descending">主机名</th>
+                      <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" aria-label="Browser: activate to sort column ascending">主机IP</th>
+                      <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" aria-label="Browser: activate to sort column ascending">远程用户</th>
+                      <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" aria-label="Platform(s): activate to sort column ascending">系统类型</th>
+                      <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" aria-label="Engine version: activate to sort column ascending">所属IDC</th>
+                      <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" aria-label="CSS grade: activate to sort column ascending">操作</th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                  {% for host_obj in curr_page_list %}
+                  <tr role="row" class="odd">
+                    <td class="dtr-control sorting_1" tabindex="0">{{ host_obj.host.hostname }}</td>
+                    <td>{{ host_obj.host.ip_addr }}</td>
+                      <td>{{ host_obj.remote_user.username }}</td>
+                    <td>{{ host_obj.host.system_type|showSystemType  }}</td>
+                    <td>{{ host_obj.host.idc }}</td>
+                      <td><a href="/connect_host/{{ host_obj.pk }}" target="_blank"><button type="button" class="btn btn-block btn-info btn-sm">连接控制台</button></a></td>
+                  </tr>
+                  {% endfor %}
+
+
+                  </tbody>
+
+                </table></div></div><div class="row"><div class="col-sm-12 col-md-5"><div class="dataTables_info" id="example2_info" role="status" aria-live="polite">{{ curr_page_list|length }} 条</div></div>
+                    <div class="col-sm-12 col-md-7">
+                        <div class="dataTables_paginate paging_simple_numbers" id="example2_paginate">
+                            <ul class="pagination">
+                                {% if page_has_pre %}
+                                <li class="paginate_button page-item previous " id="example2_previous">
+                                    <a href="/hosts/{{ page_num_pre }}/" aria-controls="example2" data-dt-idx="0" tabindex="0" class="page-link">Previous</a>
+                                </li>
+                                {% endif %}
+                                {% for p in page_range %}
+                                    {% if p == current_page %}
+                                        <li class="paginate_button page-item active">
+                                            <a href="/hosts/{{ p }}/" aria-controls="example2" data-dt-idx="{{ p }}" tabindex="0" class="page-link">{{ p }}</a>
+                                        </li>
+                                    {% else %}
+                                        <li class="paginate_button page-item">
+                                            <a href="/hosts/{{ p }}/" aria-controls="example2" data-dt-idx="{{ p }}" tabindex="0" class="page-link">{{ p }}</a>
+                                        </li>
+                                    {% endif %}
+                                {% endfor%}
+
+                                {% if page_has_nex %}
+                                <li class="paginate_button page-item next" id="example2_next">
+                                    <a href="/hosts/{{ page_num_nex }}/" aria-controls="example2" data-dt-idx="4" tabindex="0" class="page-link">Next</a>
+                                </li>
+                                {% endif %}
+                            </ul>
+                        </div>
+                    </div>
+                </div></div>
+              </div>
+              <!-- /.card-body -->
+            </div>
+
+          </div>
+          <!-- /.col -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container-fluid -->
+    </section>
+    <!-- /.content -->
+  </div>
+{% endblock %}
