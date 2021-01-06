@@ -1,7 +1,8 @@
 Django==3.1.2
 channels==2.4.0
 djangorestframework==3.12.2
+celery==4.4.0
 django-celery-beat==2.1.0
 django-celery==3.3.1
-redis=3.2.0
+redis==3.2.0
 

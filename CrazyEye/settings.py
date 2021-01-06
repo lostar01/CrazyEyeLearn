@@ -131,7 +131,6 @@ STATICFILES_DIRS = (
 )
 
 AUTH_USER_MODEL = 'web.UserProfile'
-WEB_SSH_URL="http://192.168.137.170:8888"
 
 # define private key temp dir
 TMP_DIR = '/tmp'
@@ -140,10 +139,10 @@ TMP_DIR = '/tmp'
 PER_PAGE_COUNT = 10
 
 # config celery
-BROKER_URL='redis://:mydev_redis01@192.168.137.170:6379/2'
+BROKER_URL='redis://:mydev_redis01@127.0.0.1:6379/2'
 
 #config store the result
-CELERY_RESULT_BACKEND = 'redis://:mydev_redis01@192.168.137.170:6379/2'
+CELERY_RESULT_BACKEND = 'redis://:mydev_redis01@127.0.0.1:6379/2'
 
 #config connection timeout
 BROKER_TRANSPORT_OPTIONS = {'visibility_timeout': 43200}
@@ -157,8 +156,10 @@ CELERY_TIMEZONE = TIME_ZONE
 
 # djcelery.setup_loader()
 # CELERYBEAT_SCHEDULER = 'djcelery.schedulers.DatabaseScheduler'
+
 #config celery_beat
-CELERY_BEAT_SCHEDULER = 'django_celery_beat.schedulers:DatabaseScheduler'
+CELERYBEAT_SCHEDULER = 'django_celery_beat.schedulers:DatabaseScheduler'
+DJANGO_CELERY_BEAT_TZ_AWARE = False
 
 # CELERY_DEFAULT_EXCHANGE = 'celery'
 # CELERY_DEFAULT_EXCHANGE_TYPE = 'direct'
