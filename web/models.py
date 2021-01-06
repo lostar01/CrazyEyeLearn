@@ -151,7 +151,7 @@ class UserProfile(AbstractBaseUser):
 
 class AuditLog(models.Model):
     token = models.CharField(max_length=256,unique=True)
-    status_type_choice = ((0,"websocket not connect"),(1,"websocket open"),(2,"websocket close"))
+    status_type_choice = ((0,"websocket not connect"),(1,"websocket open"),(2,"websocket close"),(3,"analytics log done"))
     status = models.SmallIntegerField(choices=status_type_choice,default=0)
     audit_log = models.CharField(max_length=256,blank=True)
 

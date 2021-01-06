@@ -4,7 +4,7 @@ from django.contrib.auth import login,logout,authenticate
 from django.views.decorators.csrf import csrf_exempt
 from django.http import QueryDict
 from web.models import UserProfile
-from web import dbmanger
+from web import dbmanger,tasks
 from django.core.paginator import Paginator
 from CrazyEye.settings import PER_PAGE_COUNT
 from backend.utils import unique
@@ -91,6 +91,5 @@ def webssh(request):
 
 
 def audit(request):
-    qs = dbmanger.get_auditlog_objs(2)
-    print(qs)
-    return HttpResponse(qs)
+    rs = tasks.analy_audit()
+    return HttpResponse(rs)

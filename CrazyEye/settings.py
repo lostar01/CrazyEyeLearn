@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 
 from pathlib import Path
 import os
+# import djcelery
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -40,6 +41,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'web',
     'channels',
+    # 'djcelery',  # django-celery only support 1.1 to django=2.2
+    'django_celery_beat',
 ]
 
 ASGI_APPLICATION='web.routing.application'
@@ -135,3 +138,29 @@ TMP_DIR = '/tmp'
 
 #page paging count peer page
 PER_PAGE_COUNT = 10
+
+# config celery
+BROKER_URL='redis://:mydev_redis01@192.168.137.170:6379/2'
+
+#config store the result
+CELERY_RESULT_BACKEND = 'redis://:mydev_redis01@192.168.137.170:6379/2'
+
+#config connection timeout
+BROKER_TRANSPORT_OPTIONS = {'visibility_timeout': 43200}
+
+#config message formater
+CELERY_ACCEPT_CONNECT = ['application/json']
+CELERY_TASK_SERIALIZER = 'json'
+
+#config celery timezone
+CELERY_TIMEZONE = TIME_ZONE
+
+# djcelery.setup_loader()
+# CELERYBEAT_SCHEDULER = 'djcelery.schedulers.DatabaseScheduler'
+#config celery_beat
+CELERY_BEAT_SCHEDULER = 'django_celery_beat.schedulers:DatabaseScheduler'
+
+# CELERY_DEFAULT_EXCHANGE = 'celery'
+# CELERY_DEFAULT_EXCHANGE_TYPE = 'direct'
+# CELERY_DEFAULT_QUEUE = 'celery'
+# CELERY_DEFAULT_ROUTING_KEY = 'celery'

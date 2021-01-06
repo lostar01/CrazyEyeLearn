@@ -27,7 +27,7 @@ def get_loger(base_dir,file_name):
     try:
         loger = logging.getLogger()
         file_handler = logging.FileHandler(os.path.join(base_dir,file_name))
-        formater = logging.Formatter("%(asctime)s %(message)s")
+        formater = logging.Formatter("%(asctime)s|%(message)s")
         file_handler.setFormatter(formater)
         loger.addHandler(file_handler)
         loger.setLevel(logging.INFO)

@@ -1,0 +1,207 @@
+2021-01-05 17:27:21,384|Connected (version 2.0, client OpenSSH_7.6p1)
+2021-01-05 17:27:21,491|Authentication (password) successful!
+2021-01-05 17:27:24,553|{'status': 0, 'data': '\r', 'cols': None, 'rows': None}
+2021-01-05 17:27:25,140|{'status': 0, 'data': '\r', 'cols': None, 'rows': None}
+2021-01-05 17:27:25,333|{'status': 0, 'data': '\r', 'cols': None, 'rows': None}
+2021-01-05 17:27:25,491|{'status': 0, 'data': '\r', 'cols': None, 'rows': None}
+2021-01-05 17:27:26,623|{'status': 0, 'data': 'l', 'cols': None, 'rows': None}
+2021-01-05 17:27:26,825|{'status': 0, 'data': 's', 'cols': None, 'rows': None}
+2021-01-05 17:27:26,890|{'status': 0, 'data': '\r', 'cols': None, 'rows': None}
+2021-01-05 17:27:27,729|{'status': 0, 'data': '\r', 'cols': None, 'rows': None}
+2021-01-05 17:27:27,958|{'status': 0, 'data': '\r', 'cols': None, 'rows': None}
+2021-01-05 17:27:28,099|{'status': 0, 'data': '\r', 'cols': None, 'rows': None}
+2021-01-05 17:27:28,308|{'status': 0, 'data': '\r', 'cols': None, 'rows': None}
+2021-01-05 17:27:33,424|{'status': 0, 'data': 'c', 'cols': None, 'rows': None}
+2021-01-05 17:27:33,645|{'status': 0, 'data': 'a', 'cols': None, 'rows': None}
+2021-01-05 17:27:33,789|{'status': 0, 'data': 't', 'cols': None, 'rows': None}
+2021-01-05 17:27:33,918|{'status': 0, 'data': ' ', 'cols': None, 'rows': None}
+2021-01-05 17:27:34,109|{'status': 0, 'data': 't', 'cols': None, 'rows': None}
+2021-01-05 17:27:34,317|{'status': 0, 'data': 'e', 'cols': None, 'rows': None}
+2021-01-05 17:27:34,573|{'status': 0, 'data': 's', 'cols': None, 'rows': None}
+2021-01-05 17:27:34,963|{'status': 0, 'data': '\t', 'cols': None, 'rows': None}
+2021-01-05 17:27:35,396|{'status': 0, 'data': '\r', 'cols': None, 'rows': None}
+2021-01-05 17:27:36,563|{'status': 0, 'data': '\r', 'cols': None, 'rows': None}
+2021-01-05 17:27:36,757|{'status': 0, 'data': '\r', 'cols': None, 'rows': None}
+2021-01-05 17:27:38,687|{'status': 0, 'data': 'r', 'cols': None, 'rows': None}
+2021-01-05 17:27:38,829|{'status': 0, 'data': 'm', 'cols': None, 'rows': None}
+2021-01-05 17:27:39,006|{'status': 0, 'data': ' ', 'cols': None, 'rows': None}
+2021-01-05 17:27:39,182|{'status': 0, 'data': 't', 'cols': None, 'rows': None}
+2021-01-05 17:27:39,424|{'status': 0, 'data': 'e', 'cols': None, 'rows': None}
+2021-01-05 17:27:39,677|{'status': 0, 'data': 's', 'cols': None, 'rows': None}
+2021-01-05 17:27:39,869|{'status': 0, 'data': 't', 'cols': None, 'rows': None}
+2021-01-05 17:27:40,100|{'status': 0, 'data': '\r', 'cols': None, 'rows': None}
+2021-01-05 17:27:40,909|{'status': 0, 'data': 'l', 'cols': None, 'rows': None}
+2021-01-05 17:27:40,990|{'status': 0, 'data': 's', 'cols': None, 'rows': None}
+2021-01-05 17:27:41,139|{'status': 0, 'data': '\r', 'cols': None, 'rows': None}
+2021-01-05 17:27:42,416|{'status': 0, 'data': '\r', 'cols': None, 'rows': None}
+2021-01-05 17:27:42,610|{'status': 0, 'data': '\r', 'cols': None, 'rows': None}
+2021-01-05 17:27:42,787|{'status': 0, 'data': '\r', 'cols': None, 'rows': None}
+2021-01-05 17:27:44,113|{'status': 0, 'data': '\r', 'cols': None, 'rows': None}
+2021-01-05 17:27:44,326|{'status': 0, 'data': '\r', 'cols': None, 'rows': None}
+2021-01-05 17:27:47,134|{'status': 0, 'data': 'c', 'cols': None, 'rows': None}
+2021-01-05 17:27:47,344|{'status': 0, 'data': 'a', 'cols': None, 'rows': None}
+2021-01-05 17:27:47,522|{'status': 0, 'data': 't', 'cols': None, 'rows': None}
+2021-01-05 17:27:47,645|{'status': 0, 'data': ' ', 'cols': None, 'rows': None}
+2021-01-05 17:27:47,983|{'status': 0, 'data': 'e', 'cols': None, 'rows': None}
+2021-01-05 17:27:48,285|{'status': 0, 'data': 'c', 'cols': None, 'rows': None}
+2021-01-05 17:27:48,574|{'status': 0, 'data': '2', 'cols': None, 'rows': None}
+2021-01-05 17:27:48,866|{'status': 0, 'data': '\t', 'cols': None, 'rows': None}
+2021-01-05 17:27:49,395|{'status': 0, 'data': '\r', 'cols': None, 'rows': None}
+2021-01-05 17:27:50,778|{'status': 0, 'data': 'l', 'cols': None, 'rows': None}
+2021-01-05 17:27:50,863|{'status': 0, 'data': 's', 'cols': None, 'rows': None}
+2021-01-05 17:27:52,563|{'status': 0, 'data': '\r', 'cols': None, 'rows': None}
+2021-01-05 17:27:52,773|{'status': 0, 'data': '\r', 'cols': None, 'rows': None}
+2021-01-05 17:27:52,929|{'status': 0, 'data': '\r', 'cols': None, 'rows': None}
+2021-01-05 17:27:53,438|{'status': 0, 'data': 'l', 'cols': None, 'rows': None}
+2021-01-05 17:27:53,549|{'status': 0, 'data': 's', 'cols': None, 'rows': None}
+2021-01-05 17:27:53,682|{'status': 0, 'data': '\r', 'cols': None, 'rows': None}
+2021-01-05 17:27:53,972|{'status': 0, 'data': '\r', 'cols': None, 'rows': None}
+2021-01-05 17:27:54,146|{'status': 0, 'data': '\r', 'cols': None, 'rows': None}
+2021-01-05 17:27:54,323|{'status': 0, 'data': '\r', 'cols': None, 'rows': None}
+2021-01-05 17:27:54,500|{'status': 0, 'data': '\r', 'cols': None, 'rows': None}
+2021-01-05 17:28:00,191|{'status': 0, 'data': 'r', 'cols': None, 'rows': None}
+2021-01-05 17:28:00,334|{'status': 0, 'data': 'm', 'cols': None, 'rows': None}
+2021-01-05 17:28:00,477|{'status': 0, 'data': ' ', 'cols': None, 'rows': None}
+2021-01-05 17:28:00,589|{'status': 0, 'data': 'a', 'cols': None, 'rows': None}
+2021-01-05 17:28:00,753|{'status': 0, 'data': 'n', 'cols': None, 'rows': None}
+2021-01-05 17:28:00,899|{'status': 0, 'data': '\t', 'cols': None, 'rows': None}
+2021-01-05 17:28:02,052|{'status': 0, 'data': '\r', 'cols': None, 'rows': None}
+2021-01-05 17:28:02,882|{'status': 0, 'data': 'l', 'cols': None, 'rows': None}
+2021-01-05 17:28:02,989|{'status': 0, 'data': 's', 'cols': None, 'rows': None}
+2021-01-05 17:28:03,156|{'status': 0, 'data': '\r', 'cols': None, 'rows': None}
+2021-01-05 17:28:06,146|{'status': 0, 'data': '\r', 'cols': None, 'rows': None}
+2021-01-05 17:28:06,338|{'status': 0, 'data': '\r', 'cols': None, 'rows': None}
+2021-01-05 17:28:06,500|{'status': 0, 'data': '\r', 'cols': None, 'rows': None}
+2021-01-05 17:28:07,117|{'status': 0, 'data': 'l', 'cols': None, 'rows': None}
+2021-01-05 17:28:07,230|{'status': 0, 'data': 's', 'cols': None, 'rows': None}
+2021-01-05 17:28:07,699|{'status': 0, 'data': '\r', 'cols': None, 'rows': None}
+2021-01-05 17:28:08,611|{'status': 0, 'data': '\r', 'cols': None, 'rows': None}
+2021-01-05 17:28:08,821|{'status': 0, 'data': '\r', 'cols': None, 'rows': None}
+2021-01-05 17:28:08,993|{'status': 0, 'data': '\r', 'cols': None, 'rows': None}
+2021-01-05 17:28:09,152|{'status': 0, 'data': '\r', 'cols': None, 'rows': None}
+2021-01-05 17:28:09,330|{'status': 0, 'data': '\r', 'cols': None, 'rows': None}
+2021-01-05 17:28:09,492|{'status': 0, 'data': '\r', 'cols': None, 'rows': None}
+2021-01-05 17:28:09,666|{'status': 0, 'data': '\r', 'cols': None, 'rows': None}
+2021-01-05 17:28:09,826|{'status': 0, 'data': '\r', 'cols': None, 'rows': None}
+2021-01-05 17:28:10,738|{'status': 0, 'data': '\r', 'cols': None, 'rows': None}
+2021-01-05 17:28:10,993|{'status': 0, 'data': '\r', 'cols': None, 'rows': None}
+2021-01-05 17:28:11,205|{'status': 0, 'data': '\r', 'cols': None, 'rows': None}
+2021-01-05 17:28:19,375|{'status': 0, 'data': 'c', 'cols': None, 'rows': None}
+2021-01-05 17:28:19,598|{'status': 0, 'data': 'a', 'cols': None, 'rows': None}
+2021-01-05 17:28:19,773|{'status': 0, 'data': 't', 'cols': None, 'rows': None}
+2021-01-05 17:28:19,902|{'status': 0, 'data': ' ', 'cols': None, 'rows': None}
+2021-01-05 17:28:20,064|{'status': 0, 'data': 'r', 'cols': None, 'rows': None}
+2021-01-05 17:28:20,205|{'status': 0, 'data': 'e', 'cols': None, 'rows': None}
+2021-01-05 17:28:20,693|{'status': 0, 'data': '\t', 'cols': None, 'rows': None}
+2021-01-05 17:28:21,456|{'status': 0, 'data': '\r', 'cols': None, 'rows': None}
+2021-01-05 17:28:25,052|{'status': 0, 'data': '\x0c', 'cols': None, 'rows': None}
+2021-01-05 17:28:25,566|{'status': 0, 'data': 'l', 'cols': None, 'rows': None}
+2021-01-05 17:28:25,679|{'status': 0, 'data': 's', 'cols': None, 'rows': None}
+2021-01-05 17:28:25,875|{'status': 0, 'data': '\r', 'cols': None, 'rows': None}
+2021-01-05 17:28:26,537|{'status': 0, 'data': '\r', 'cols': None, 'rows': None}
+2021-01-05 17:28:26,741|{'status': 0, 'data': '\r', 'cols': None, 'rows': None}
+2021-01-05 17:28:26,898|{'status': 0, 'data': '\r', 'cols': None, 'rows': None}
+2021-01-05 17:28:27,934|{'status': 0, 'data': 'e', 'cols': None, 'rows': None}
+2021-01-05 17:28:28,206|{'status': 0, 'data': 'x', 'cols': None, 'rows': None}
+2021-01-05 17:28:28,365|{'status': 0, 'data': 'i', 'cols': None, 'rows': None}
+2021-01-05 17:28:28,500|{'status': 0, 'data': 't', 'cols': None, 'rows': None}
+2021-01-05 17:28:28,946|{'status': 0, 'data': '\r', 'cols': None, 'rows': None}
+2021-01-05 17:28:36,477|WebSocket DISCONNECT /webssh/ [192.168.137.193:51523]
+2021-01-05 17:28:44,261|HTTP GET /admin/ 200 [0.08, 192.168.137.193:51562]
+2021-01-05 17:28:47,560|HTTP GET /admin/django_celery_beat/periodictask/ 200 [0.11, 192.168.137.193:51562]
+2021-01-05 17:28:47,594|HTTP GET /admin/jsi18n/ 200 [0.02, 192.168.137.193:51562]
+2021-01-05 17:28:54,007|HTTP POST /admin/django_celery_beat/periodictask/ 302 [0.04, 192.168.137.193:51562]
+2021-01-05 17:28:54,543|HTTP GET /admin/django_celery_beat/periodictask/ 200 [0.53, 192.168.137.193:51562]
+2021-01-05 17:28:54,582|HTTP GET /admin/jsi18n/ 200 [0.02, 192.168.137.193:51562]
+2021-01-05 17:34:26,354|HTTP POST /admin/django_celery_beat/periodictask/ 302 [0.05, 192.168.137.193:51716]
+2021-01-05 17:34:26,476|HTTP GET /admin/django_celery_beat/periodictask/ 200 [0.12, 192.168.137.193:51716]
+2021-01-05 17:34:26,523|HTTP GET /admin/jsi18n/ 200 [0.02, 192.168.137.193:51716]
+2021-01-05 17:34:42,150|HTTP GET /admin/django_celery_beat/solarschedule/ 200 [0.06, 192.168.137.193:51716]
+2021-01-05 17:34:42,188|HTTP GET /admin/jsi18n/ 200 [0.02, 192.168.137.193:51716]
+2021-01-05 17:34:45,420|HTTP GET /admin/django_celery_beat/solarschedule/add/ 200 [0.11, 192.168.137.193:51716]
+2021-01-05 17:34:45,450|HTTP GET /admin/jsi18n/ 200 [0.01, 192.168.137.193:51716]
+2021-01-05 17:34:51,958|HTTP GET /admin/django_celery_beat/intervalschedule/ 200 [0.08, 192.168.137.193:51716]
+2021-01-05 17:34:51,994|HTTP GET /admin/jsi18n/ 200 [0.02, 192.168.137.193:51716]
+2021-01-05 17:34:57,502|HTTP GET /admin/django_celery_beat/intervalschedule/1/change/ 200 [0.09, 192.168.137.193:51716]
+2021-01-05 17:34:57,531|HTTP GET /admin/jsi18n/ 200 [0.01, 192.168.137.193:51716]
+2021-01-05 17:35:00,099|HTTP GET /admin/django_celery_beat/periodictask/ 200 [0.12, 192.168.137.193:51716]
+2021-01-05 17:35:00,123|HTTP GET /admin/jsi18n/ 200 [0.01, 192.168.137.193:51716]
+2021-01-05 17:36:41,054|HTTP GET /admin/django_celery_beat/periodictask/ 200 [0.20, 192.168.137.193:51767]
+2021-01-05 17:36:41,085|HTTP GET /admin/jsi18n/ 200 [0.01, 192.168.137.193:51767]
+2021-01-05 17:36:43,533|HTTP GET /admin/django_celery_beat/periodictask/ 200 [0.17, 192.168.137.193:51767]
+2021-01-05 17:36:43,565|HTTP GET /admin/jsi18n/ 200 [0.01, 192.168.137.193:51767]
+2021-01-05 17:36:47,130|HTTP GET /admin/django_celery_beat/periodictask/2/change/ 200 [0.32, 192.168.137.193:51767]
+2021-01-05 17:36:47,174|HTTP GET /admin/jsi18n/ 200 [0.01, 192.168.137.193:51767]
+2021-01-05 17:37:18,648|HTTP GET /admin/django_celery_beat/periodictask/ 200 [0.11, 192.168.137.193:51767]
+2021-01-05 17:37:32,686|Internal Server Error: /admin/django_celery_beat/periodictask/
+Traceback (most recent call last):
+  File "/root/project/websshpy/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/root/project/websshpy/lib/python3.6/site-packages/django/db/backends/sqlite3/base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/project/websshpy/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/project/websshpy/lib/python3.6/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/project/websshpy/lib/python3.6/site-packages/django/contrib/admin/options.py", line 614, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/root/project/websshpy/lib/python3.6/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/root/project/websshpy/lib/python3.6/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/root/project/websshpy/lib/python3.6/site-packages/django/contrib/admin/sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "/root/project/websshpy/lib/python3.6/site-packages/django_celery_beat/admin.py", line 153, in changelist_view
+    request, extra_context)
+  File "/root/project/websshpy/lib/python3.6/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/root/project/websshpy/lib/python3.6/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/root/project/websshpy/lib/python3.6/site-packages/django/contrib/admin/options.py", line 1719, in changelist_view
+    response = self.response_action(request, queryset=cl.get_queryset(request))
+  File "/root/project/websshpy/lib/python3.6/site-packages/django/contrib/admin/options.py", line 1402, in response_action
+    response = func(self, request, queryset)
+  File "/root/project/websshpy/lib/python3.6/site-packages/django_celery_beat/admin.py", line 194, in toggle_tasks
+    rows_updated = self._toggle_tasks_activity(queryset)
+  File "/root/project/websshpy/lib/python3.6/site-packages/django_celery_beat/admin.py", line 190, in _toggle_tasks_activity
+    default=Value(True),
+  File "/root/project/websshpy/lib/python3.6/site-packages/django/db/models/query.py", line 784, in update
+    rows = query.get_compiler(self.db).execute_sql(CURSOR)
+  File "/root/project/websshpy/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1522, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "/root/project/websshpy/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1156, in execute_sql
+    cursor.execute(sql, params)
+  File "/root/project/websshpy/lib/python3.6/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/root/project/websshpy/lib/python3.6/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/root/project/websshpy/lib/python3.6/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/root/project/websshpy/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/root/project/websshpy/lib/python3.6/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/root/project/websshpy/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/root/project/websshpy/lib/python3.6/site-packages/django/db/backends/sqlite3/base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: database is locked
+2021-01-05 17:37:32,694|HTTP POST /admin/django_celery_beat/periodictask/ 500 [5.29, 192.168.137.193:51767]
+2021-01-05 17:38:12,685|HTTP GET /admin/django_celery_beat/periodictask/ 200 [0.12, 192.168.137.193:51767]
+2021-01-05 17:38:15,278|HTTP POST /admin/django_celery_beat/periodictask/ 302 [0.34, 192.168.137.193:51767]
+2021-01-05 17:38:15,392|HTTP GET /admin/django_celery_beat/periodictask/ 200 [0.11, 192.168.137.193:51767]
+2021-01-05 17:38:15,428|HTTP GET /admin/jsi18n/ 200 [0.01, 192.168.137.193:51767]
+2021-01-05 17:38:43,508|HTTP GET /admin/django_celery_beat/periodictask/ 200 [0.15, 192.168.137.193:51767]
+2021-01-05 17:38:43,565|HTTP GET /admin/jsi18n/ 200 [0.02, 192.168.137.193:51767]
+2021-01-05 17:40:16,200|HTTP GET /admin/django_celery_beat/periodictask/?o=5 200 [0.09, 192.168.137.193:51912]
+2021-01-05 17:40:16,225|HTTP GET /admin/jsi18n/ 200 [0.01, 192.168.137.193:51912]
+2021-01-05 17:40:17,434|HTTP GET /admin/django_celery_beat/periodictask/?o=-5 200 [0.12, 192.168.137.193:51912]
+2021-01-05 17:40:17,472|HTTP GET /admin/jsi18n/ 200 [0.02, 192.168.137.193:51912]
+2021-01-05 17:40:29,703|HTTP POST /admin/django_celery_beat/periodictask/?o=-5 302 [0.29, 192.168.137.193:51912]
+2021-01-05 17:40:29,812|HTTP GET /admin/django_celery_beat/periodictask/?o=-5 200 [0.10, 192.168.137.193:51912]
+2021-01-05 17:40:29,855|HTTP GET /admin/jsi18n/ 200 [0.01, 192.168.137.193:51912]
